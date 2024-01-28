@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+@font-face {
+    font-family: "Rubik";
+    src: url('fonts/Rubik/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: "EB Garamond";
+    src: url('fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf') format('truetype');
+
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.maintitle{
+    width: 85;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+.content{
+   width: 100%;
+   position: absolute; 
+   top: 30%;
+   transform: translateY(-30%);
+   transform: translateX(+8%);
+   color: white;
+}
+.content h1{
+    font-size: 60px;
+    margin: 80 px;
+    font-family: 'Rubik', sans-serif;
+}
+.content button{
+    width:auto;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding: 10px 30px;
+    background: rgb(0, 0, 0);
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 0.3%;
+    display: grid;
+    position: relative;
+    text-align: start;
+    top: 300px; 
+    left: 20px;
+    
+}
+.content p {
+	font-size: 25px;
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	margin-top: -1%;
+    font-weight: bold;
+}
+.quote{
+    font-size: 30px;
+	color: white;
+	font-family: 'Rubik', sans-serif;
+    position: absolute;
+    bottom: 150px;
+    right: 0;
+    margin-right: 120px;
+    font-weight: bold;
+}
+#quote {
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	position: 50% 50%;
+    font-style: italic;
+}
+#author {
+    margin-top: 10px;
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	position: 50% 50%;
+    font-style: normal;
+    text-align: end;
+}
+	
